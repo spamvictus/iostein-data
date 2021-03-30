@@ -110,8 +110,21 @@
   { "name": "iron_leggings", "price": 60 },
   { "name": "iron_sword", "price": 20 },
   { "name": "stone_sword", "price": 1 },
-  { "name": "enderchest", "price": 1 },
+  { "name": "ender_chest", "price": 1 },
   { "name": "ender_pearl", "price": 1 },
   { "name": "ender_eye", "price": 1 },
-  { "name": "end_stone", "price": 1 }
+  { "name": "end_stone", "price": 1 },
+  { "name": "feather", "price": 1 },
+  { "name": "golden_sword", "price": 25 },
+  { "name": "dye", "price": 1 },
+  { "name": "slime", "price": 1 },
+  { "name": "enchanted_book", "price": 1 },
+  { "name": "stonebrick", "price": 20 },
+  { "name": "jungle_stairs", "price": 1 },
+  { "name": "jungle_door", "price": 1 },
+  { "name": "wool", "price": 5 },
+  { "name": "dye", "price": 1 },
+  { "name": "experience_bottle", "price": 30 },
+  { "name": "birch_fence_gate", "price": 1 },
+  { "name": "trapdoor", "price": 1 }
 ]

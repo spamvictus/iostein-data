@@ -600,12 +600,6 @@
     "stackSize": 64
   },
   {
-    "id": 119,
-    "displayName": "End Portal",
-    "name": "end_portal",
-    "stackSize": 64
-  },
-  {
     "id": 120,
     "displayName": "End Portal Block",
     "name": "end_portal_frame",

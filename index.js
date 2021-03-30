@@ -16,7 +16,7 @@ async function displayData() {
   console.log('asd');
   document.getElementById("table-data").innerHTML = '';
 
-  sortBy(filterSearch(itemsData.map((item) => ({ ...item, price: getPrice(item) }))), 'displayName', true)
+  sortBy(filterSearch(itemsData.map((item) => ({ ...item, price: getPrice(item) }))), 'price', true)
   .forEach((item) => addRow(item));
 }
 

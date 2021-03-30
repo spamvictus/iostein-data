@@ -15,14 +15,16 @@ async function loadData() {
 }
 
 async function displayData() {
-  itemsData.forEach((item) => {
-    addRow({ ...item, price: getPrice(item.name) });
-  });
+  console.log('asd');
+  document.getElementById("table-data").innerHTML = '';
+
+  sortBy(filterSearch(itemsData.map((item) => ({ ...item, price: getPrice(item) }))), 'displayName', true)
+  .forEach((item) => addRow(item));
 }
 
-function getPrice({ name1 }) {
+function getPrice({ name: name1 }) {
   return iosteinItemsPriceData.find(({ name: name2 }) => name1 === name2)
-    ?.price;
+  ?.price;
 }
 
 function addRow({ id, name, displayName, price }) {
@@ -36,13 +38,15 @@ function addRow({ id, name, displayName, price }) {
   const cell4 = row.insertCell(3);
   const cell5 = row.insertCell(4);
 
-  cell1.innerHTML = `<img height="32px" width="32px" src="./item-icons/${getIconName(
-    name
-  )}.png">`;
+  const coinImg = '<img height="16" width="16" src="./coin.png">';
+
+  cell1.innerHTML = `<center><img height="32px" width="32px" src="./item-icons/${
+    displayName
+  }.png"></center>`;
   cell2.innerHTML = id;
   cell3.innerHTML = name;
   cell4.innerHTML = displayName;
-  cell5.innerHTML = price;
+  cell5.innerHTML = `${price ? price+coinImg : '-'}`;
 }
 
 function getIconName(name1, tmp) {
@@ -51,4 +55,23 @@ function getIconName(name1, tmp) {
   )?.iconName)
     ? tmp
     : name1;
+}
+
+function sortBy(data, keyName, desc=false){
+  const m = desc?1:-1;
+  return data.sort((a,b) => 
+    a[keyName]>b[keyName] || b[keyName]===undefined ? 1*m : (
+      a[keyName]<b[keyName] || a[keyName]===undefined ? -1*m : 0
+    )
+  );
+}
+
+function filterSearch(data){
+  const search = document.getElementById('search').value;
+  if(search.length===0)return data;
+  return data.filter(({name, displayName, price}) => 
+      name.includes(search) || 
+      displayName.includes(search) || 
+      (price && `${price}`.includes(search))
+  );
 }

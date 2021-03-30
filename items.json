@@ -1,11 +1,5 @@
 [
   {
-    "id": 0,
-    "displayName": "Air",
-    "name": "air",
-    "stackSize": 64
-  },
-  {
     "id": 1,
     "displayName": "Stone",
     "name": "stone",
@@ -48,21 +42,9 @@
     "stackSize": 64
   },
   {
-    "id": 8,
-    "displayName": "Water",
-    "name": "flowing_water",
-    "stackSize": 64
-  },
-  {
     "id": 9,
     "displayName": "Stationary Water",
     "name": "water",
-    "stackSize": 64
-  },
-  {
-    "id": 10,
-    "displayName": "Lava",
-    "name": "flowing_lava",
     "stackSize": 64
   },
   {
@@ -252,12 +234,6 @@
     "stackSize": 64
   },
   {
-    "id": 43,
-    "displayName": "Double Stone Slab",
-    "name": "double_stone_slab",
-    "stackSize": 64
-  },
-  {
     "id": 44,
     "displayName": "Stone Slab",
     "name": "stone_slab",
@@ -387,12 +363,6 @@
     "id": 67,
     "displayName": "Cobblestone Stairs",
     "name": "stone_stairs",
-    "stackSize": 64
-  },
-  {
-    "id": 68,
-    "displayName": "Wall Sign",
-    "name": "wall_sign",
     "stackSize": 64
   },
   {
@@ -558,18 +528,6 @@
     "stackSize": 64
   },
   {
-    "id": 99,
-    "displayName": "Brown Mushroom (block)",
-    "name": "brown_mushroom_block",
-    "stackSize": 64
-  },
-  {
-    "id": 100,
-    "displayName": "Red Mushroom (block)",
-    "name": "red_mushroom_block",
-    "stackSize": 64
-  },
-  {
     "id": 101,
     "displayName": "Iron Bars",
     "name": "iron_bars",
@@ -696,12 +654,6 @@
     "stackSize": 64
   },
   {
-    "id": 125,
-    "displayName": "Double Wooden Slab",
-    "name": "double_wooden_slab",
-    "stackSize": 64
-  },
-  {
     "id": 126,
     "displayName": "Wooden Slab",
     "name": "wooden_slab",
@@ -735,12 +687,6 @@
     "id": 131,
     "displayName": "Tripwire Hook",
     "name": "tripwire_hook",
-    "stackSize": 64
-  },
-  {
-    "id": 132,
-    "displayName": "Tripwire",
-    "name": "tripwire",
     "stackSize": 64
   },
   {
@@ -783,12 +729,6 @@
     "id": 139,
     "displayName": "Cobblestone Wall",
     "name": "cobblestone_wall",
-    "stackSize": 64
-  },
-  {
-    "id": 141,
-    "displayName": "Carrot",
-    "name": "carrots",
     "stackSize": 64
   },
   {
@@ -907,7 +847,7 @@
   },
   {
     "id": 162,
-    "displayName": "Wood (Acacia/Dark Oak)",
+    "displayName": "Wood (Acacia or Dark Oak)",
     "name": "log2",
     "stackSize": 64
   },
@@ -996,12 +936,6 @@
     "stackSize": 64
   },
   {
-    "id": 177,
-    "displayName": "Wall Banner",
-    "name": "wall_banner",
-    "stackSize": 64
-  },
-  {
     "id": 178,
     "displayName": "Inverted Daylight Sensor",
     "name": "daylight_detector_inverted",
@@ -1017,12 +951,6 @@
     "id": 180,
     "displayName": "Red Sandstone Stairs",
     "name": "red_sandstone_stairs",
-    "stackSize": 64
-  },
-  {
-    "id": 181,
-    "displayName": "Double Red Sandstone Slab",
-    "name": "double_stone_slab2",
     "stackSize": 64
   },
   {

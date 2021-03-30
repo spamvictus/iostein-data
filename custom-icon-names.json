@@ -22,5 +22,11 @@
   { "itemName": "baked_potato", "iconName": "door_acacia" },
   { "itemName": "written_book", "iconName": "door_acacia" },
   { "itemName": "writable_book", "iconName": "door_acacia" },
+  { "itemName": "beef", "iconName": "beef_raw" },
+  { "itemName": "book", "iconName": "book_normal" },
+  { "itemName": "bow", "iconName": "bow_standby" },
+  { "itemName": "bucket", "iconName": "bucket_empty" },
+  { "itemName": "chest_minecart", "iconName": "minecart_chest" },
+  { "itemName": "chicken", "iconName": "chicken_raw" },
   { "itemName": "fire_charge", "iconName": "door_acacia" }
 ]

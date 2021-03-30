@@ -480,12 +480,6 @@
     "stackSize": 64
   },
   {
-    "id": 90,
-    "displayName": "Nether Portal",
-    "name": "portal",
-    "stackSize": 64
-  },
-  {
     "id": 91,
     "displayName": "Jack o'Lantern",
     "name": "lit_pumpkin",
@@ -729,12 +723,6 @@
     "id": 139,
     "displayName": "Cobblestone Wall",
     "name": "cobblestone_wall",
-    "stackSize": 64
-  },
-  {
-    "id": 142,
-    "displayName": "Potato",
-    "name": "potatoes",
     "stackSize": 64
   },
   {

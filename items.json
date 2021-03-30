@@ -180,21 +180,9 @@
     "stackSize": 64
   },
   {
-    "id": 34,
-    "displayName": "Piston Head",
-    "name": "piston_head",
-    "stackSize": 64
-  },
-  {
     "id": 35,
     "displayName": "Wool",
     "name": "wool",
-    "stackSize": 64
-  },
-  {
-    "id": 36,
-    "displayName": "Block moved by Piston",
-    "name": "piston_extension",
     "stackSize": 64
   },
   {
@@ -2447,7 +2435,7 @@
   },
   {
     "id": 384,
-    "displayName": "Bottle o' Enchanting",
+    "displayName": "Bottle o Enchanting",
     "stackSize": 64,
     "name": "experience_bottle"
   },
@@ -2583,7 +2571,7 @@
   },
   {
     "id": 397,
-    "displayName": "Mob head",
+    "displayName": "Head",
     "stackSize": 64,
     "name": "skull",
     "variations": [
@@ -2713,7 +2701,7 @@
   },
   {
     "id": 414,
-    "displayName": "Rabbit's Foot",
+    "displayName": "Rabbit Foot",
     "stackSize": 64,
     "name": "rabbit_foot"
   },

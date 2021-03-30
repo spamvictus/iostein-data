@@ -5,9 +5,7 @@ let customIconNameData = [];
 async function loadData() {
   itemsData = await (await fetch("./items.json")).json();
 
-  iosteinItemsPriceData = await (
-    await fetch("./iostein-pricelist.json")
-  ).json();
+  iosteinItemsPriceData = await (await fetch("./iostein-pricelist.json")).json();
 
   customIconNameData = await (await fetch("./custom-icon-names.json")).json();
 

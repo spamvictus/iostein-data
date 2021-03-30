@@ -1,0 +1,32 @@
+th {
+  color: white;
+}
+
+img {
+  image-rendering: pixelated;
+}
+
+input#search {
+  width: 100%;
+  height: 5%;
+  font-size: 100%;
+  text-align: center;
+  color: white;
+  background: black;
+}
+
+tbody tr:hover {
+  color: white;
+  background: #242424;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #151515;
+  color: #999999;
+}
+
+table {
+  width: 100%;
+}

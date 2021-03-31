@@ -136,5 +136,7 @@
   { "name": "dark_oak_door", "price": 1 },
   { "name": "dark_oak_fence_gate", "price": 1 },
   { "name": "dark_oak_stairs", "price": 1 },
-  { "name": "dark_oak_fence", "price": 1 }
+  { "name": "bedrock", "price": 20 },
+  { "name": "dark_oak_fence", "price": 1 },
+  { "name": "nether_brick", "price": 1 }
 ]

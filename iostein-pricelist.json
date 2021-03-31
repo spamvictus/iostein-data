@@ -140,5 +140,7 @@
   { "name": "dark_oak_fence", "price": 1 },
   { "name": "netherbrick", "price": 1 },
   { "name": "cooked_fish", "price": 1 },
-  { "name": "fish", "price": 1 }
+  { "name": "fish", "price": 1 },
+  { "name": "nether_brick_stairs", "price": 1 },
+  { "name": "nether_brick_fence", "price": 1 }
 ]

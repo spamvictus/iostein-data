@@ -312,12 +312,6 @@
     "stackSize": 64
   },
   {
-    "id": "62",
-    "displayName": "Burning Furnace",
-    "name": "lit_furnace",
-    "stackSize": 64
-  },
-  {
     "id": "63",
     "displayName": "Standing Sign",
     "name": "standing_sign",
@@ -363,18 +357,6 @@
     "id": "73",
     "displayName": "Redstone Ore",
     "name": "redstone_ore",
-    "stackSize": 64
-  },
-  {
-    "id": "74",
-    "displayName": "Glowing Redstone Ore",
-    "name": "lit_redstone_ore",
-    "stackSize": 64
-  },
-  {
-    "id": "75",
-    "displayName": "Redstone Torch (inactive)",
-    "name": "unlit_redstone_torch",
     "stackSize": 64
   },
   {
@@ -453,12 +435,6 @@
     "id": "89",
     "displayName": "Glowstone",
     "name": "glowstone",
-    "stackSize": 64
-  },
-  {
-    "id": "91",
-    "displayName": "Jack o'Lantern",
-    "name": "lit_pumpkin",
     "stackSize": 64
   },
   {
@@ -615,12 +591,6 @@
     "id": "123",
     "displayName": "Redstone Lamp (inactive)",
     "name": "redstone_lamp",
-    "stackSize": 64
-  },
-  {
-    "id": "124",
-    "displayName": "Redstone Lamp (active)",
-    "name": "lit_redstone_lamp",
     "stackSize": 64
   },
   {

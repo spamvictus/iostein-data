@@ -16,8 +16,11 @@ async function displayData() {
   console.log('asd');
   document.getElementById("table-data").innerHTML = '';
 
-  sortBy(filterSearch(itemsData.map((item) => ({ ...item, price: getPrice(item) }))), 'price', true)
-  .forEach((item) => addRow(item));
+  sortBy(
+    filterSearch(
+      itemsData.map((item) => ({ ...item, price: getPrice(item) }))
+    ),'price', true
+  ).forEach(e => addRow(e));
 }
 
 function getPrice({ name: name1 }) {
@@ -64,12 +67,17 @@ function sortBy(data, keyName, desc=false){
   );
 }
 
+const filterFn = searchTerm => ({id, name, displayName, price}) => {
+    const searchFn = (
+      a => b => b!=undefined && `${b}`.toLowerCase().includes(a)
+    )(searchTerm);//expects b to be lowercase already
+    return (searchFn(id) || searchFn(name) || searchFn(displayName) || searchFn(price));
+}
+
 function filterSearch(data){
-  const search = document.getElementById('search').value;
+  const search = document.getElementById('search').value.toLowerCase();
   if(search.length===0)return data;
-  return data.filter(({name, displayName, price}) => 
-      name.includes(search) || 
-      displayName.includes(search) || 
-      (price && `${price}`.includes(search))
-  );
+
+  const myFilterFn = filterFn(search);
+  return data.filter(myFilterFn);
 }

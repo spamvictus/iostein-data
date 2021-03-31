@@ -90,6 +90,7 @@
   { "name": "lapis_block", "price": 27 },
   { "name": "lapis_lazuli", "price": 3 },
   { "name": "glass", "price": 1 },
+  { "name": "golden_carrot", "price": 1 },
   { "name": "arrow", "price": 1 },
   { "name": "minecart", "price": 1 },
   { "name": "sandstone", "price": 5 },
@@ -126,5 +127,14 @@
   { "name": "dye", "price": 1 },
   { "name": "experience_bottle", "price": 30 },
   { "name": "birch_fence_gate", "price": 1 },
-  { "name": "trapdoor", "price": 1 }
+  { "name": "tripwire_hook", "price": 1 },
+  { "name": "fermented_spider_eye", "price": 1 },
+  { "name": "lapis_lazuli", "price": 3 },
+  { "name": "ink_sac", "price": 1 },
+  { "name": "log2", "price": 1 },
+  { "name": "trapdoor", "price": 1 },
+  { "name": "dark_oak_door", "price": 1 },
+  { "name": "dark_oak_fence_gate", "price": 1 },
+  { "name": "dark_oak_stairs", "price": 1 },
+  { "name": "dark_oak_fence", "price": 1 }
 ]

@@ -61,3 +61,7 @@ footer {
 a,a:visited {
   color: gold;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

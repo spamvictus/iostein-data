@@ -51,3 +51,13 @@ body {
 table {
   width: 100%;
 }
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+a,a:visited {
+  color: gold;
+}

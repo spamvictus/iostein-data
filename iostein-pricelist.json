@@ -1,6 +1,6 @@
 [
-  { "name": "nether_quartz", "price": 15 },
-  { "name": "nether_quartz_ore", "price": 12 },
+  { "name": "quartz", "price": 15 },
+  { "name": "quartz_ore", "price": 12 },
   { "name": "blaze_rod", "price": 1 },
   { "name": "dirt", "price": 1 },
   { "name": "coal", "price": 5 },
@@ -138,5 +138,7 @@
   { "name": "dark_oak_stairs", "price": 1 },
   { "name": "bedrock", "price": 20 },
   { "name": "dark_oak_fence", "price": 1 },
-  { "name": "nether_brick", "price": 1 }
+  { "name": "netherbrick", "price": 1 },
+  { "name": "cooked_fish", "price": 1 },
+  { "name": "fish", "price": 1 }
 ]

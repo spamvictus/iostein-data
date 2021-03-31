@@ -42,18 +42,6 @@
     "stackSize": 64
   },
   {
-    "id": "9",
-    "displayName": "Stationary Water",
-    "name": "water",
-    "stackSize": 64
-  },
-  {
-    "id": "11",
-    "displayName": "Stationary Lava",
-    "name": "lava",
-    "stackSize": 64
-  },
-  {
     "id": "12",
     "displayName": "Sand",
     "name": "sand",

@@ -252,12 +252,6 @@
     "stackSize": 64
   },
   {
-    "id": "51",
-    "displayName": "Fire",
-    "name": "fire",
-    "stackSize": 64
-  },
-  {
     "id": "52",
     "displayName": "Monster Spawner",
     "name": "mob_spawner",
@@ -273,12 +267,6 @@
     "id": "54",
     "displayName": "Chest",
     "name": "chest",
-    "stackSize": 64
-  },
-  {
-    "id": "55",
-    "displayName": "Redstone Wire",
-    "name": "redstone_wire",
     "stackSize": 64
   },
   {
@@ -300,21 +288,9 @@
     "stackSize": 64
   },
   {
-    "id": "60",
-    "displayName": "Farmland",
-    "name": "farmland",
-    "stackSize": 64
-  },
-  {
     "id": "61",
     "displayName": "Furnace",
     "name": "furnace",
-    "stackSize": 64
-  },
-  {
-    "id": "63",
-    "displayName": "Standing Sign",
-    "name": "standing_sign",
     "stackSize": 64
   },
   {
@@ -397,7 +373,7 @@
   },
   {
     "id": "82",
-    "displayName": "Clay",
+    "displayName": "Block of Clay",
     "name": "clay",
     "stackSize": 64
   },
@@ -438,18 +414,6 @@
     "stackSize": 64
   },
   {
-    "id": "93",
-    "displayName": "Redstone Repeater (inactive)",
-    "name": "unpowered_repeater",
-    "stackSize": 64
-  },
-  {
-    "id": "94",
-    "displayName": "Redstone Repeater (active)",
-    "name": "powered_repeater",
-    "stackSize": 64
-  },
-  {
     "id": "95",
     "displayName": "Stained Glass",
     "name": "stained_glass",
@@ -459,12 +423,6 @@
     "id": "96",
     "displayName": "Trapdoor",
     "name": "trapdoor",
-    "stackSize": 64
-  },
-  {
-    "id": "97",
-    "displayName": "Monster Egg",
-    "name": "monster_egg",
     "stackSize": 64
   },
   {
@@ -489,18 +447,6 @@
     "id": "103",
     "displayName": "Melon",
     "name": "melon_block",
-    "stackSize": 64
-  },
-  {
-    "id": "104",
-    "displayName": "Pumpkin Stem",
-    "name": "pumpkin_stem",
-    "stackSize": 64
-  },
-  {
-    "id": "105",
-    "displayName": "Melon Stem",
-    "name": "melon_stem",
     "stackSize": 64
   },
   {
@@ -565,7 +511,7 @@
   },
   {
     "id": "120",
-    "displayName": "End Portal Block",
+    "displayName": "End Portal Frame",
     "name": "end_portal_frame",
     "stackSize": 64
   },
@@ -631,7 +577,7 @@
   },
   {
     "id": "133",
-    "displayName": "Block of Emerald",
+    "displayName": "Emerald Block",
     "name": "emerald_block",
     "stackSize": 64
   },
@@ -702,18 +648,6 @@
     "stackSize": 64
   },
   {
-    "id": "149",
-    "displayName": "Redstone Comparator",
-    "name": "unpowered_comparator",
-    "stackSize": 64
-  },
-  {
-    "id": "150",
-    "displayName": "Redstone Comparator (deprecated)",
-    "name": "powered_comparator",
-    "stackSize": 64
-  },
-  {
     "id": "151",
     "displayName": "Daylight Sensor",
     "name": "daylight_detector",
@@ -775,7 +709,7 @@
   },
   {
     "id": "161",
-    "displayName": "Leaves (Acacia/Dark Oak)",
+    "displayName": "Acacia and Dark Oak Leaves",
     "name": "leaves2",
     "stackSize": 64
   },
@@ -853,7 +787,7 @@
   },
   {
     "id": "174",
-    "displayName": "Packed Ice",
+    "displayName": "Compressed Ice",
     "name": "packed_ice",
     "stackSize": 64
   },
@@ -861,18 +795,6 @@
     "id": "175",
     "displayName": "Large Flowers",
     "name": "double_plant",
-    "stackSize": 64
-  },
-  {
-    "id": "176",
-    "displayName": "Standing Banner",
-    "name": "standing_banner",
-    "stackSize": 64
-  },
-  {
-    "id": "178",
-    "displayName": "Inverted Daylight Sensor",
-    "name": "daylight_detector_inverted",
     "stackSize": 64
   },
   {

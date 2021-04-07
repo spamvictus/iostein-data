@@ -16,11 +16,14 @@ async function displayData() {
   console.log('asd');
   document.getElementById("table-data").innerHTML = '';
 
-  sortBy(
+  const processedData = sortBy(
     filterSearch(
       itemsData.map((item) => ({ ...item, price: getPrice(item) }))
     ),'price', true
-  ).forEach(e => addRow(e));
+  )
+  processedData.forEach(e => addRow(e));
+  
+  document.getElementById("result-amount-info").innerText = `Found Results: ${processedData.length}`;
 }
 
 function getPrice({ name: name1 }) {
@@ -66,6 +69,8 @@ function sortBy(data, keyName, desc=false){
     )
   );
 }
+
+const filterUnknown = data => data.filter(({price}) => price === undefined);
 
 const filterFn = searchTerm => ({id, name, displayName, price}) => {
     const searchFn = (

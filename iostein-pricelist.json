@@ -136,7 +136,7 @@
   { "name": "dark_oak_door", "price": 1 },
   { "name": "dark_oak_fence_gate", "price": 1 },
   { "name": "dark_oak_stairs", "price": 1 },
-  { "name": "bedrock", "price": 20 },
+  { "name": "bedrock", "price": 10000 },
   { "name": "dark_oak_fence", "price": 1 },
   { "name": "netherbrick", "price": 1 },
   { "name": "cooked_fish", "price": 1 },
@@ -295,5 +295,7 @@
   { "name": "acacia_fence", "price": 1 },
   { "name": "jungle_fence", "price": 1 },
   { "name": "mushroom_stew", "price": 1 },
-  { "name": "ghast_tear", "price": 1 }
+  { "name": "ghast_tear", "price": 1 },
+  { "name": "mycelium", "price": 1 },
+  { "name": "mob_spawner", "price": 200000 }
 ]

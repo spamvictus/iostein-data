@@ -1,7 +1,8 @@
 <html>
   <head>
     <link rel="stylesheet" href="./index.css">
-    <script src="index.js"></script>
+    <script defer src="helper-fns.js"></script>
+    <script defer src="index.js"></script>
     <title>iostein Freebuild Adminshop Preisliste</title>
     <meta property="og:image" content="./coin.png" />
     <link rel="icon" sizes="20x20" href="/coin.png" />
@@ -12,8 +13,16 @@
 <meta property="og:description" content="Unabhängiges eigenständiges Spielerprojekt für die Adminshop Preise von Freebuild" />
   </head>
   <body onload="loadData()">
+    <div id="login-form">
+      <div id="login-box">
+        <p>Password:</p>
+        <input type="text" name="password" id="password">
+      </div>
+    </div>
     <input type="text" placeholder="Search..." id="search" oninput="displayData()" />
-    <div id="info"><div id="result-amount-info"></div></div>
+    <div id="info">
+      <div id="result-amount-info"></div>
+  </div>
     <table>
       <thead>
         <tr>

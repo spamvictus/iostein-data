@@ -2,7 +2,23 @@
 let itemsData = [];
 let iosteinItemsPriceData = [];
 let customIconNameData = [];
+
+const pwd='VollGerne';
+
+document.querySelector("#password").addEventListener("keyup", e => {
+  if(e.key !== "Enter") return;
+  e.preventDefault();
+  setCookie('pwd', e.currentTarget.value);
+  document.getElementById('login-form').style.display = 'none';
+  loadData();
+});
+
 async function loadData() {
+  if(!auth()){
+    showLoginForm();
+    return;
+  }
+
   itemsData = await (await fetch("./items.json")).json();
 
   iosteinItemsPriceData = await (await fetch("./iostein-pricelist.json")).json();
@@ -10,6 +26,14 @@ async function loadData() {
   customIconNameData = await (await fetch("./custom-icon-names.json")).json();
 
   displayData();
+}
+
+function auth(){
+  return getCookieVal('pwd')===pwd;
+}
+
+function showLoginForm(){
+  document.getElementById('login-form').style.display = 'flex';
 }
 
 async function displayData() {

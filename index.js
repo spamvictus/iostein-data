@@ -42,7 +42,7 @@ async function displayData() {
   const processedData = sortBy(
     filterSearch(
       itemsData.map((item) => ({ ...item, price: getPrice(item) }))
-    ),'price', false
+    ),'name', true
   )
   processedData.forEach((e,i) => addRow(e,i));
   

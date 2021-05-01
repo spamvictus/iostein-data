@@ -37,15 +37,14 @@ function showLoginForm(){
 }
 
 async function displayData() {
-  console.log('asd');
   document.getElementById("table-data").innerHTML = '';
 
   const processedData = sortBy(
     filterSearch(
       itemsData.map((item) => ({ ...item, price: getPrice(item) }))
-    ),'price', true
+    ),'price', false
   )
-  processedData.forEach(e => addRow(e));
+  processedData.forEach((e,i) => addRow(e,i));
   
   document.getElementById("result-amount-info").innerText = `Found Results: ${processedData.length}`;
 }
@@ -55,26 +54,28 @@ function getPrice({ name: name1 }) {
   ?.price;
 }
 
-function addRow({ id, name, displayName, price }) {
+function addRow({ id, name, displayName, price }, nr) {
   const table = document.getElementById("table-data");
 
-  const row = table.insertRow(0);
+  const row = table.insertRow(nr);
 
   const cell1 = row.insertCell(0);
   const cell2 = row.insertCell(1);
   const cell3 = row.insertCell(2);
   const cell4 = row.insertCell(3);
   const cell5 = row.insertCell(4);
+  const cell6 = row.insertCell(5);
 
   const coinImg = '<img height="16" width="16" src="./coin.png">';
 
-  cell1.innerHTML = `<center><img height="32px" width="32px" src="./item-icons/${
+  cell1.innerHTML = nr+1;
+  cell2.innerHTML = `<center><img height="32px" width="32px" src="./item-icons/${
     displayName
   }.png"></center>`;
-  cell2.innerHTML = id;
-  cell3.innerHTML = name;
-  cell4.innerHTML = displayName;
-  cell5.innerHTML = `${price ? price+coinImg : '-'}`;
+  cell3.innerHTML = id;
+  cell4.innerHTML = name;
+  cell5.innerHTML = displayName;
+  cell6.innerHTML = `${price ? price+coinImg : '-'}`;
 }
 
 function getIconName(name1, tmp) {
